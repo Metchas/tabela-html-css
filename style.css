@@ -1,0 +1,82 @@
+body{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    
+        border-spacing: 0;
+        border-collapse: collapse;
+        box-shadow: 10px 10px 8px #db139844;
+    
+}
+
+tbody>tr:nth-child(even),
+thead>tr,
+tfoot>tr {
+    background-color: #51c2a6;
+}
+
+caption {
+    background-color: #d310c9;
+    font-size: 20pt;
+    caption-side: top;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    padding: 15px 20px;
+}
+tfoot>tr{
+    background-color: rgb(31, 95, 179);
+}
+tbody>tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+    
+.botao{
+    background-color: #eaeeee; 
+    border: none; 
+    color: rgb(7, 5, 5); 
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado do texto */
+    display: inline-block; /* Exibir como um elemento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Alterar o cursor ao passar o mouse */
+    border-radius: 5px; /* Arredondamento das bordas */
+    margin-top: 15px;
+    
+  }
+  .botao:hover{
+    background-color: #51c2a6;
+
+  }
+
+  .blacklight{
+    background-color: #eaeeee; /* Cor de fundo do botão */
+    border: none; /* Remover borda */
+    color: rgb(7, 5, 5); /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado do texto */
+    display: inline-block; /* Exibir como um elemento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Alterar o cursor ao passar o mouse */
+    border-radius: 5px; /* Arredondamento das bordas */
+    margin-top: 15px;
+    
+  }
+  .blacklight:hover{
+    background-color: #51c2a6;
+
+  }
+
+.dark-mode {
+    background-color: #080808;
+  }
+

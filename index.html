@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css" id="linkestilo">
+
+   
+</head>
+<body>
+<table>
+    <caption>TABELA DE FUNCIONÁRIOS</caption>
+        <thead>
+            <tr>
+                <th>ID DO FUNCIONÁRIO</th>
+                <th>NOME DO FUNCIONÁRIO</th>
+                <th>CARGO</th>
+                <th>EMPRESA</th>
+                <th>EMAIL</th>
+                <th>POSSUI CRACHÁ</th> 
+            </tr>
+        </thead>
+
+
+        <tr>
+            <td>255</td>
+            <td>Zé do Berimbau</td>
+            <td>Motorista</td>
+            <td>Uber</td>
+            <td>zezindaledele@cmail.com</td>
+            <td>Sim</td>
+        </tr>
+
+        <tr>
+            <td>666</td>
+            <td>Maria Rita</td>
+            <td>Ceo</td>
+            <td>Goma</td>
+            <td>mariafontes@cmail.com</td>
+            <td>Sim</td>
+        </tr>
+
+        <tr>
+            <td>655</td>
+            <td>Manoel Gomes</td>
+            <td>Compositor</td>
+            <td>Facebook</td>
+            <td>canetaazul@cmail.com</td>
+            <td>Não</td>
+        </tr>
+
+        <tr>
+            <td>855</td>
+            <td>Marilia mendonça</td>
+            <td>Piloto</td>
+            <td>Gol</td>
+            <td>mariliamend@cmail.com</td>
+            <td>Sim</td>
+        </tr>
+
+        <tr>
+            <td>1322</td>
+            <td>Bolsolula</td>
+            <td>Lixeiro</td>
+            <td>Recicla Brasil</td>
+            <td>bolsolinha@cmail.com</td>
+            <td>Não</td>
+        </tr>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">TOTAL DE FUNCIONÁRIOS</td>
+                <td>5</td>
+            
+            </tr>
+        </tfoot>
+    </table>
+    <button class="botao">Remover Estilo</button>
+    <button class="blacklight">Tema Escuro</button>
+    
+
+    <script>
+        function trocamodelo(){
+            const linkestilo = document.querySelector('#linkestilo');
+            
+            if(linkestilo.hasAttribute('disabled')){
+                linkestilo.removeAttribute('disabled');
+                botao.innerHTML = 'deleleleele'
+
+            }else {
+                linkestilo.setAttribute('disabled', '');
+                botao.innerHTML = 'desquexele'
+            }
+            
+        }
+        const botao = document.querySelector('.botao');
+        botao.addEventListener('click', trocamodelo);
+
+
+
+      
+    </script>
+
+
+</body>
+</html>
